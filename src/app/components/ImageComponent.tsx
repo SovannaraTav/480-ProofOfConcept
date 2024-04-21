@@ -1,30 +1,35 @@
 'use client'
-import React from "react";
+import React, { useState } from "react";
+import Image from "next/image";
 
 function ImageComponent()
 {
+    const [src, setSrc] = useState("/sovannara_tav.jpg");
+    const [alt, setAlt] = useState("Image of Sovannara Tav");
+    
     function ImageChanger()
     {
-        const imageElement = document.querySelector("img");
-        if (imageElement)
+        if (src === "/sovannara_tav.jpg")
         {
-            const srcAttribute = imageElement.getAttribute("src");
-            if (srcAttribute === "sovannara_tav.jpg")
-            {
-                imageElement.setAttribute("src", "pixel_uw_logo.png");
-                imageElement.setAttribute("alt", "Image of pixel UW logo");
-            }
-            else
-            {
-                imageElement.setAttribute("src", "sovannara_tav.jpg");
-                imageElement.setAttribute("alt", "Image of Sovannara Tav");
-            }
+            setSrc("/pixel_uw_logo.png");
+            setAlt("Image of pixel UW logo");
+        }
+        else
+        {
+            setSrc("/sovannara_tav.jpg");
+            setAlt("Image of Sovannara Tav");
         }
     }
 
     return (
         <div>
-            <img src="sovannara_tav.jpg" alt="Image of Sovannara Tav" onClick={ImageChanger}/>
+            <Image
+                src={src}
+                alt={alt}
+                onClick={ImageChanger}
+                width={200}
+                height={200}
+            />
         </div>
     )
 }

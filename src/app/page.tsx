@@ -30,8 +30,6 @@ export default function Home()
             <a href="https://www.linkedin.com/in/sovannara-tav"> LinkedIn </a> 
         </li>
       </ul>
-
-      <script src="main.js"></script>
     </div>
   );
 }
