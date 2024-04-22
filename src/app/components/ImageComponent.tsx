@@ -7,7 +7,7 @@ function ImageComponent()
     const [src, setSrc] = useState("/sovannara_tav.jpg");
     const [alt, setAlt] = useState("Image of Sovannara Tav");
     
-    function ImageChanger()
+    function changeImage()
     {
         if (src === "/sovannara_tav.jpg")
         {
@@ -26,12 +26,12 @@ function ImageComponent()
             <Image
                 src={src}
                 alt={alt}
-                onClick={ImageChanger}
+                onClick={changeImage}
                 width={200}
                 height={200}
             />
         </div>
-    )
+    );
 }
 
 export default ImageComponent;

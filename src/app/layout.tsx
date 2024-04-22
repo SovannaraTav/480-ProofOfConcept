@@ -1,19 +1,20 @@
 import type { Metadata } from "next";
 import { Lato } from "next/font/google";
 import "./globals.css";
+import NavigationBarComponent from "./components/NavigationBarComponent";
 
 const lato = Lato
 (
   {
-  subsets: ["latin-ext"],
+  subsets: ["latin"],
   weight: "400",
   }
-);
+)
 
 export const metadata: Metadata = 
 {
   title: "Proof of Concept"
-};
+}
 
 export default function RootLayout
 (
@@ -27,7 +28,10 @@ export default function RootLayout
 {
   return (
     <html lang="en-US">
-      <body className={lato.className}>{children}</body>
+      <body className={lato.className}>
+        <NavigationBarComponent />
+        {children}
+      </body>
     </html>
   );
 }
