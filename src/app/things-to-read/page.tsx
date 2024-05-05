@@ -44,6 +44,18 @@ export default function ThingsToRead()
                 </li>
 
                 <li>
+                    <p>Learn more about the WhoCanUse color accessibility checker used in this proof of concept website application:&nbsp;
+                        <a href="https://www.whocanuse.com/" target="_blank" rel="noopener noreferrer">WhoCanUse Color Accessibility Checker</a>
+                    </p>
+                </li>
+
+                <li>
+                    <p>Learn more about the WebAIM color contrast checker used in this proof of concept website application:&nbsp;
+                        <a href="https://webaim.org/resources/contrastchecker/" target="_blank" rel="noopener noreferrer">WebAIM Color Contrast Checker</a>
+                    </p>
+                </li>
+
+                <li>
                     <p>Learn more about the University of Washington Bothell:&nbsp;
                         <a href="https://www.uwb.edu/" target="_blank" rel="noopener noreferrer">University of Washington Bothell</a>
                     </p>

@@ -6,7 +6,7 @@
 
 html
 {
-    background-color: whitesmoke;
+    background-color: #ffffff;
 }
 
 body
@@ -16,11 +16,24 @@ body
 
 h1, h2
 {
-    margin-bottom: 0px;
+    text-decoration: underline;
+    margin-bottom: 5px;
 }
 
 p
 {
     width: 800px;
     text-align: justify;
+}
+
+a
+{
+    font-weight: bold;
+    color: #4b2e83;
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-decoration: underline;
 }

@@ -1,5 +1,6 @@
 'use client'
 import React, { useState } from "react";
+import styles from "../styles/ButtonStyle.module.css";
 
 function ListComponent()
 {
@@ -19,7 +20,7 @@ function ListComponent()
                     <li key={number}>{number}</li>
                 ))}
             </ul>
-            <button onClick={reorderList}> Change Order</button>
+            <button className={styles.button} onClick={reorderList}> Change Order</button>
         </div>
     );
 }

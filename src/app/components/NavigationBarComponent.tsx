@@ -1,10 +1,10 @@
 import Link from "next/link";
+import styles from "../styles/NavigationBarStyle.module.css";
 
 function NavigationBarComponent()
 {
     return (
-        <nav>
-            <h1>Navigation Bar</h1>
+        <nav className={styles.nav}>
             <ul>
                 <li>
                     <Link href="/">Home</Link>
