@@ -1,4 +1,4 @@
-import "../layout"
+import "../layout";
 import "../globals.css";
 
 export default function ThingsToRead()

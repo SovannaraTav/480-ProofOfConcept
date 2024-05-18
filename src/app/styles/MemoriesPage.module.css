@@ -1,0 +1,21 @@
+.h1, .h2, .h3
+{
+    text-align: center;
+    text-decoration: none;
+}
+
+.p
+{
+    width: auto;
+    text-align: center;
+}
+
+.Image
+{
+    margin: 0 310px
+}
+
+.video
+{
+    margin: 0 3%
+}

@@ -12,6 +12,9 @@ function NavigationBarComponent()
                 <li>
                     <Link href="/things-to-read">Things to Read</Link>
                 </li>
+                <li>
+                    <Link href="/memories">Memories</Link>
+                </li>
             </ul>
         </nav>
     )
