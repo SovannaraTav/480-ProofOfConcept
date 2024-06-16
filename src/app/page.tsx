@@ -8,7 +8,7 @@ export default function Home()
       <h2>Introduction</h2>
       <ImageComponent />
       <p> 
-        Hello there! My name is Sovannara Tav. I am a junior undergrad student at the University of
+        Hello there! My name is Sovannara Tav. I am an undergrad student at the University of
         Washington Bothell. I am pursuing a background in computer science and software engineering
         to grow the technical and soft skills to prepare for the transition into the workforce. In
         transitioning into the workforce, I aspire to excel as a successful computing professional
