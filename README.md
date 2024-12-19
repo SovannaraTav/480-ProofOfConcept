@@ -6,7 +6,7 @@ This mini proof-of-concept website application was meant to be small introductio
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) using the Next.js framework. Additional tools and technologies include HTML, CSS, JavaScript/TypeScript, React UI library, and the Vercel cloud platform.
 
-[Mini Proof-of-Concept Website Application Link](https://480-proof-of-concept-sovannara-tav-projects.vercel.app/)
+[Mini Proof-of-Concept Website Application Link](https://480-proof-of-concept-sovannara-tav-projects.vercel.app/) (No longer deployed on Vercel).
 <br> </br>
 
 ## Order of Completion:
